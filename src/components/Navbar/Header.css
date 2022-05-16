@@ -1,0 +1,59 @@
+header {
+    padding: 40px 0 20px 0;
+    background-color: #fff;
+  }
+  header .box {
+    margin: 0 0 0 30px;
+  }
+  header a {
+    font-size: 13px;
+    color: grey;
+  }
+  header i {
+    font-size: 40px;
+    color: #31b675;
+    margin-right: 15px;
+  }
+  header .text {
+    margin-top: 10px;
+  }
+  header h4 {
+    line-height: 10px;
+  }
+  
+.logo{
+    font-variant: normal;
+    font-style: italic;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: fantasy;
+    color: #31b675;
+    
+}
+
+  @media screen and (max-width: 768px) {
+    header .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    header .contact {
+      justify-content: center;
+      align-items: center;
+    }
+    header a {
+      font-size: 10px;
+    }
+    header i {
+      font-size: 30px;
+      margin-right: 5px;
+      margin-top: 10px;
+    }
+
+    header Link {
+        font-size: 1rem;
+    }
+    #head{
+      overflow: hidden;
+    }
+  }
